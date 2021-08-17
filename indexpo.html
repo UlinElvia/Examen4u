@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html >
+<head>
+	
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Examen 4ta Unidad</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!--agregue funete de Google fonts-->
+<link href = "https: //fonts.googleapis.com/css2? family = Oxygen + Mono & display = swap "rel =" stylesheet ">
+</head>
+<body>
+<!--encabezado-->
+<header>
+	<!--una clase y el otro es como una subclase q usa la clase base-->
+	<!--aqui es donde definiremos en color id-->
+	<nav id="header-nav" class="navbar navbar-default">
+		<div class="container-fluid">
+			<!--una clase de conten,aveces flota-->
+<!--e-->			<div class="navbar-header">
+			<a href="index.html" class="pull-left visible-md visible-lg">
+				<!--acá ira nuestro logo 1-->
+            <div id="logo-img"></div>
+			</a>
+			<!--booststrap, cualquier marca como nombre de la empresa de estar en este navbar-->
+			<div class="navbar-brand">
+				<!--nombre de restaurantes-->
+				<a href="indexpo.html"> <h1>INSTITUTO PROFESIONAL DE COMPUTACIÓN. IPC</h1></a>
+			
+			<p>
+				<!--acá ira nuestro logo 2-->
+				<img src="img/logo.png" alt="IPC certified" width="75" height="90">
+				<span style="color: white; font-family: Baskerville, calibri;">16 años de experiencia</span>
+			</p>
+            </div>
+           <!--av.to controla el posicionamiento de todo este boton--><!--y agregamos nuestro boton-->
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false"><!--aria,son para lectores de pantalla-->
+            <span class="sr-only">Toggle navigation</span>
+            <!--poner los iconos-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div><!--acá termina el encabezado-->
+
+          <!--los menus, div va contener todos los elementos para estos-->
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+                <a href="https://www.google.com/maps/place/Instituto+Profesional+De+Computaci%C3%B3n/@14.5279752,-90.5908452,17z/data=!3m1!4b1!4m5!3m4!1s0x8589a771bea0766d:0x5792a658fde3c34a!8m2!3d14.5279752!4d-90.5886565?hl=es">
+                <span class="glyphicon glyphicon-map-marker"></span><br class="hidden-xs"> Dirección</a>
+            </li>
+            <li>
+                <a href="indexpo.html">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> inicio</a>
+            </li>
+            <li>
+              <a href="listas.html">
+                <span class="glyphicon glyphicon-star"></span><br class="hidden-xs"> Listas</a>
+            </li>
+            <li>
+              <a href="tablas.html">
+                <span class="glyphicon glyphicon-th-large"></span><br class="hidden-xs"> Tablas</a>
+            </li>
+            <li>
+              <a href="imagen.html">
+                <span class="glyphicon glyphicon-picture"></span><br class="hidden-xs"> Grafico</a>
+            </li>
+            <li>
+              <a href="media.html">
+                <span class="glyphicon glyphicon-comment"></span><br class="hidden-xs">M-Quire</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:5800-0010">
+                <span>410-602-5008</span></a><div>* Elvia Ulin 6a</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .navbar--->
+
+
+		</div>
+	</nav>
+</header><!--Aca termina nuestro menu menu desplegable-->
+
+
+<div id="uno">
+  
+<h1> Datos Personales</h1><br>
+
+<div id="dos">
+  <p> 
+  <u><i><h1>Hola, este es mi sitio de Coursera</h1></i></u>
+<!--insertando css de forma directa en la etiqueta h2-->
+ <b><h2 style="color: black;"> Elmer Aceituno</h2></b>
+ <h6>4to, Perito Contador pandemia</h6>
+ <h3>IPC jornada vespertina</h3>
+ </p>
+</div>
+
+</div>
+<section>
+  
+  <h1>Artículos relacionados</h1>
+  <article>
+   <h2> <a href="el-calentamiento-global-en-2030.html">El calentamiento global en 2030</a></h2>
+    <p>¿Cómo será la vida para los habitantes de la Tierra en 2030? Los efectos de la conducta humana se harán presente en el futuro cercano...</p>
+  </article>
+
+  <article>
+    <h2><a href="prevenir-el-cambio-climatico.html">La prevención del cambio climático</a></h2>
+    <p>¿Qué puede hacerse desde casa para dejar de contribuir al cambio climático? Aprende algunas técnicas que ayudarán a tu planeta...</p>
+  </article>
+
+</section>
+
+<aside>
+<h4>Epcot Center</h4>
+<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+</aside>
+
+<hr size="12" width="100%">
+  <br><br><br><br><br><br>
+  <br>
+<!--insertando css de forma directa en la etiqueta footer-->  
+  <footer style="color: #00FF00; font-family: Courier">
+  Todos los derechos reservados Instituto Profesional de Computacion 2021, Sitio Web. Css por: Elvia Ulín. 6to Administración.
+</footer>
+
+
+
+
+
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

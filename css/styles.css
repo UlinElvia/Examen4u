@@ -1,0 +1,159 @@
+body{
+	font-size: 16px;
+	color:#fff;
+	background-color: #1A237E;
+	font-family: 'Oxygen Mono', monospace; 
+}
+/**nave de cabecera id-color**/
+#header-nav{
+	background-color: #008080;
+	border-radius: 0;
+	border: 0;
+}
+/**la idenficación que pusimos en el div**/
+#logo-img {
+	background: url("../img/log.jpg") no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px 15px 10px 0;
+}
+/**darle relleno(empujarlo hacia abajo)**/
+.vab-brand{
+	padding-top: 25px;
+}
+/**el nombre de nuestro restaurante)*/
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #000080;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+/**ldecoracion de texto(no subrayado)**/
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/**la certificaion**/
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+/**span, alinear verticalmente ese texto**/
+.navbar-brand p span { 
+  vertical-align: middle;
+}/** 2 logo se alinen en el centro**/
+
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {/* darle un poco de luz al poner el puntero */
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { 
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { 
+  color: white;
+  text-align: right;
+  padding-right: 15px;
+}
+
+
+/* afecta el color denuestro boton */
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+/* cuerpo de mi pag*/
+
+  h1{
+    color: brown; 
+    font-family: Baskerville, calibri; 
+    text-align: center;
+    }
+    h3, h6{
+    color: black;
+    }
+    h4{
+    color:  red ;
+    }
+    hr{
+    background-color: #E53935;
+    }
+    p{
+    color: #CC99FF;
+    }
+   #uno{
+   background-color: #FDD835;
+   }
+   #dos{
+   background-color: #E53935;
+   text-align: center;
+   }
+
+
+/* HEADER */
+
+/*Solo dispositivos grandes*/
+@media (min-width: 1200px) {
+
+}
+
+/*Solo dispositivos medianos */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header logo */
+  #logo-img {
+    background: url("../img/log.jpg") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+}
+
+/*Solo dispositivos pequeños */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*Solo dispositivos extra pequeños*/
+@media (max-width: 767px) {
+
+  .navbar-brand {
+    padding-top: 10px;/* disminuir el relleno */
+    height: 80px;
+  }
+  .navbar-brand h1 { /* el nombre de cole */
+    padding-top: 10px;
+    font-size: 5vw; /* estirar o encojer la pantalla,dara un tamaño relativo al ancho de la pantalla */
+  }
+  .navbar-brand p { /* IPC certified, acá la vamos a disminuir */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* restringir el logo ipc */
+    height: 60px;
+  }
